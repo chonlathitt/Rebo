@@ -1,8 +1,18 @@
-class printLotto:
-	# lotto_1st เป็นรางวัลที่ 1 
+import random
 
-	def run_1st():
-	
-		# 
+num = random.randint(0,999999)
+num1 = random.randint(0,10)
+num2 = random.randint(0,10)
+num3 = random.randint(0,10)
 
-		return lotto_1st
+print(num)
+
+lotto = input("lotto3 : ")
+print (lotto*10+num1)
+
+lotto1 = input("lotto4 : ")
+print (lotto1*10+num2)
+
+lotto2 = input("lotto1 : ")
+print (lotto2*10+num3)
+
